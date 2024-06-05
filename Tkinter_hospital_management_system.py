@@ -3,7 +3,7 @@ from tkinter import ttk
 
 root = Tk()
 root.geometry("1090x510+100+120")
-root.title("Hospital management system")
+root.title("CLINIC management system")
 root.configure(bg="#B5E0E6")
 
 def prescrib_button():
@@ -25,7 +25,7 @@ def Clear_button():
 	for d in range(len(clear_all)):
 		clear_all[d]
 
-pro_title = Label(root,text="+ HOSPITAL MANAGEMENT SYSTEM",bg="white",fg="#FE0203",bd=9,font=("times new roman",22,"bold"),relief=GROOVE)
+pro_title = Label(root,text="+ CLINIC MANAGEMENT SYSTEM",bg="white",fg="#FE0203",bd=9,font=("times new roman",22,"bold"),relief=GROOVE)
 pro_title.place(x=0,y=0,width=1090)
 
 frame1 = Frame(root,bg='white',bd=5,relief= RIDGE)
